@@ -1,0 +1,29 @@
+{
+  "private": true,
+  "name": "@giotramu/javascript-algorithms",
+  "author": "giotramu <https://twitter.com/giotramu>",
+  "homepage": "https://github.com/giotramu/javascript-algorithms#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giotramu/javascript-algorithms.git"
+  },
+  "bugs": {
+    "url": "https://github.com/giotramu/javascript-algorithms/issues"
+  },
+  "engines": {
+    "node": ">=12.x",
+    "npm": ">=6.x"
+  },
+  "scripts": {
+    "lint:src": "eslint . --ext .js,.mjs",
+    "lint": "npm run lint:src"
+  },
+  "devDependencies": {
+    "eslint": "^7.1.0",
+    "eslint-config-contactlab": "^4.2.2",
+    "eslint-config-prettier": "^6.11.0",
+    "husky": "^4.2.5",
+    "prettier": "^2.0.5",
+    "pretty-quick": "^2.0.1"
+  }
+}

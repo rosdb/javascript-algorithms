@@ -1,0 +1,27 @@
+{
+  "[markdown]": {
+    "editor.wordWrap": "wordWrapColumn",
+    "editor.quickSuggestions": true,
+    "editor.formatOnSave": true
+  },
+  "[json]": {
+    "editor.formatOnSave": true
+  },
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  },
+  "code-runner.defaultLanguage": "javascript",
+  "code-runner.showExecutionMessage": false,
+  "code-runner.executorMapByGlob": {
+    "*.mjs": "node --experimental-modules"
+  }
+}
