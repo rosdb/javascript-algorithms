@@ -3,20 +3,15 @@
 import {performance} from 'perf_hooks';
 
 (function run() {
-  function addUpTo(n) {
-    let total = 0;
-
-    for (let i = 1; i <= n; i++) {
-      total += i;
+  function logAtLeast5(n) {
+    for (let i = 1; i <= Math.max(5, n); i++) {
+      console.log(i);
     }
-
-    return total;
   }
 
   const T1 = performance.now();
-  const R = addUpTo(5);
+  logAtLeast5(5);
   const T2 = performance.now();
 
-  console.log(`Result number: ${R}`);
   console.log(`Time elapsed: ${(T1 - T2) / 1000} seconds.`);
 })();

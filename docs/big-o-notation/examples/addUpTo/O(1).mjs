@@ -8,7 +8,7 @@ import {performance} from 'perf_hooks';
   }
 
   const T1 = performance.now();
-  const R = addUpTo(5);
+  const R = addUpTo(1000000000);
   const T2 = performance.now();
 
   console.log(`Result number: ${R}`);
