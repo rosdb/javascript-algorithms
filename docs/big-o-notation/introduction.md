@@ -6,27 +6,27 @@ Imagine we have multiple implementations of the same function. **How can we dete
 
 It's important to have a precise vocabulary to talk about how our code performs.
 
-Big O Notation is a way to talk formally about how the runtime of an algorithm grows as the inputs grow. Big O Notation can give us a high level understanding of the time or space complexity of an algorithm. **We won't care about the details**, only the trends (linear, quadratic, constant), because different machines will record different times. Sometimes, the same machine will record different times. For fast algorithms, speed measurements may not be precise enough.
+Big O Notation is a way to talk formally about how the runtime of an algorithm grows as the inputs grow. Big O Notation can give us a high-level understanding of the time or space complexity of an algorithm. **We won't care about the details, only the trends (linear, quadratic, constant)**, because different machines will record different times. For fast algorithms, speed measurements may not be precise enough.
 Rather than counting seconds, which are so variable, let's count the number of simple operations the computer has to perform.
 
 We say that an algorithm is _O(f(n))_ if the number of simple operations the computer has to do is eventually less than a constant times _f(n)_, as _n_ increases.
 
-- f(n) could be **linear**:
-  (f(n) = n)
+- _f(n)_ could be **linear**:
+  _(f(n) = n)_
 
-- f(n) could be **quadratic**:
-  (f(n) = n<sup>2</sup>)
+- _f(n)_ could be **quadratic**:
+  _(f(n) = n<sup>2</sup>)_
 
-- f(n) could be **constant**:
-  (f(n) = 1)
+- _f(n)_ could be **constant**:
+  _(f(n) = 1)_
 
-- f(n) could be something entirely different!
+- _f(n)_ could be something entirely different!
 
 > [Example: **addUpTo**](./examples/addUpTo/)
 
 ### Rules of Thumb in Time Complexity
 
-There are several rules of thumb that can help. These rules won't always work, but are a helpful starting point.
+Several rules of thumb can help. These rules won't always work but are a helpful starting point.
 
 - Arithmetic operations are constant;
 - Variable assignment is constant;
@@ -37,7 +37,7 @@ There are several rules of thumb that can help. These rules won't always work, b
 
 ### Rules of Thumb in Space Complexity
 
-We can also use Big O Notation to analyze the space complexity: how much additional memory do we need to allocate in order to run the code in our algorithm?
+We can also use Big O Notation to analyze the space complexity: how much additional memory do we need to allocate to run the code in our algorithm?
 
 - Most primitives (booleans, numbers, `undefined`, `null`) are constant space;
 - Strings require _O(n)_ space (where _n_ is the string length);
@@ -45,7 +45,7 @@ We can also use Big O Notation to analyze the space complexity: how much additio
 
 ## Big O and JS Data Structures
 
-Now that we've covered Big O Notation, let's spend a couple minutes analyzing the things we do all the time in JavaScript: working with Arrays, Objects, and built-in methods.
+Now that we've covered Big O Notation, let's spend a couple of minutes analyzing the things we do all the time in JavaScript: working with Arrays, Objects, and built-in methods.
 
 ### Objects
 
@@ -57,7 +57,7 @@ const player = {
 };
 ```
 
-When you don't need any ordering, objects are an excellent choice!
+When you don't need any order, objects are an excellent choice!
 
 - Insertion ➜ _O(1)_
 - Removal ➜ _O(1)_
