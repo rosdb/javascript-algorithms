@@ -33,6 +33,7 @@ function validAnagram(first, second) {
 
   for (let i = 0; i < second.length; i++) {
     const letter = second[i];
+
     // can't find letter or letter is zero then it's not an anagram
     if (!lookup[letter]) {
       return false;
