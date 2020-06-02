@@ -1,5 +1,18 @@
 [← Back](../../README.md)
 
+---
+
+**Table of contents**
+
+- [Big O Notation](#big-o-notation)
+  - [Rules of Thumb in Time Complexity](#rules-of-thumb-in-time-complexity)
+  - [Rules of Thumb in Space Complexity](#rules-of-thumb-in-space-complexity)
+  - [Big O and JS Data Structures](#big-o-and-js-data-structures)
+    - [Objects](#objects)
+    - [Arrays](#arrays)
+
+---
+
 # Big O Notation
 
 Imagine we have multiple implementations of the same function. **How can we determine which one is the "best"?**
@@ -49,7 +62,7 @@ Now that we've covered Big O Notation, let's spend a couple of minutes analyzing
 
 ### Objects
 
-```JS
+```javascript
 const player = {
   username: 'giotramu',
   multiplayerEnabled: true,

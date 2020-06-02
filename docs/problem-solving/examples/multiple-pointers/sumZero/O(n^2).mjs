@@ -4,19 +4,19 @@ import {performance} from 'perf_hooks';
 
 (function run() {
   const T1 = performance.now();
-  const R = addUpTo(1000000000);
+  const R = sumZero([-3, -2, -1, 0, 1, 2, 3]);
   const T2 = performance.now();
 
   console.log(`Result: ${R}`);
   console.log(`Time elapsed: ${(T1 - T2) / 1000} seconds.`);
 
-  function addUpTo(n) {
-    let total = 0;
-
-    for (let i = 1; i <= n; i++) {
-      total += i;
+  function sumZero(arr) {
+    for (let i = 0; i < arr.length; i++) {
+      for (let j = i + 1; j < arr.length; j++) {
+        if (arr[i] + arr[j] === 0) {
+          return [arr[i], arr[j]];
+        }
+      }
     }
-
-    return total;
   }
 })();

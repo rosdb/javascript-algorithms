@@ -1,7 +1,8 @@
 {
   "recommendations": [
-    "formulahendry.code-runner",
     "dbaeumer.vscode-eslint",
-    "prettier.prettier-vscode"
+    "formulahendry.code-runner",
+    "prettier.prettier-vscode",
+    "yzhang.markdown-all-in-one"
   ]
 }
