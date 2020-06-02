@@ -12,6 +12,7 @@ A **process** or **set of steps** to accomplish a certain task. Almost everythin
 - [Algorithm (in JavaScript)](#algorithm-in-javascript)
   - [Big O Notation](#big-o-notation)
   - [Problem Solving Patterns](#problem-solving-patterns)
+  - [References](#references)
 
 ---
 
@@ -26,3 +27,9 @@ Analyze the performance of an algorithm with Big O Notation.
 Devise a plan for solving problems and master common problem-solving patterns.
 
 > [Read more](./docs/problem-solving/intro.md) (require Big O Notation understanding).
+
+## References
+
+- [JavaScript Algorithms and Data Structures - Colt Steele][1]
+
+[1]: https://www.udemy.com/course/js-algorithms-and-data-structures-masterclass/
