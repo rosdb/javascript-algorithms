@@ -12,6 +12,7 @@ A **process** or **set of steps** to accomplish a certain task. Almost everythin
 - [Algorithm (in JavaScript)](#algorithm-in-javascript)
   - [Big O Notation](#big-o-notation)
   - [Problem Solving Patterns](#problem-solving-patterns)
+  - [Recursion](#recursion)
   - [References](#references)
 
 ---
@@ -27,6 +28,12 @@ Analyze the performance of an algorithm with Big O Notation.
 Devise a plan for solving problems and master common problem-solving patterns.
 
 > [Read more](./docs/problem-solving/intro.md) (require Big O Notation understanding).
+
+## Recursion
+
+Invoke the same function with a different input until you reach the Base Case.
+
+> [Read more](./docs/recursion/intro.md) (require Big O Notation understanding).
 
 ## References
 
