@@ -22,7 +22,7 @@
   },
   "devDependencies": {
     "eslint": "^7.2.0",
-    "eslint-config-contactlab": "^5.0.0",
+    "eslint-config-contactlab": "^6.1.0",
     "eslint-config-prettier": "^6.11.0",
     "husky": "^4.2.5",
     "jest": "^26.0.1",
